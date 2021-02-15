@@ -26,7 +26,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/lightningOutJS.js", 
+              "src/assets/js/lightning.out.js"
+            ]
           },
           "configurations": {
             "production": {
