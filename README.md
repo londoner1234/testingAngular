@@ -1,4 +1,18 @@
 # TestApp
+Run ng build --prod  
+
+Then attempt to upload as static resource. 
+https://tomwoodhousegs0-dev-ed.my.salesforce.com/apexpages/setup/viewStaticResource.apexp?id=081B0000000yHwg
+
+
+Update any references in visualforce page 
+testAngular 
+
+
+twoodhouse+gs0@salesforce.com
+Carlow2020*
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
 
