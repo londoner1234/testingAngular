@@ -27,7 +27,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/js/lightningOutJS.js", 
+              "node_modules/zone.js/dist/zone.js", 
               "src/assets/js/lightning.out.js"
             ]
           },

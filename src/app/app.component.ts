@@ -6,8 +6,9 @@ declare var $Lightning: any;
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'test-app';
+
   ngOnInit() {
     $Lightning.use(
       'c:ltngOutApp', // name of the Lightning app
