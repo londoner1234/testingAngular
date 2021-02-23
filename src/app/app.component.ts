@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 declare var $Lightning: any;
 
 @Component({
@@ -6,10 +6,10 @@ declare var $Lightning: any;
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent implements OnInit {
+export class AppComponent  {
   title = 'test-app';
 
-  ngOnInit() {
+  loutRender() {
     $Lightning.use(
       'c:ltngOutApp', // name of the Lightning app
       function () {
